@@ -3,7 +3,7 @@ FROM php:7.4-apache
 
 #copy file database bernama trucorp-db.sql
 COPY ./index.php /var/www/html
-COPY ./trucorp-db.sql /docker-entrypoint-initdb.d/init.sql
+
 EXPOSE 3306
 
 
